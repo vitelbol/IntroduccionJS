@@ -31,6 +31,21 @@ for(let i = 0; i< carrito.length;i++)
 }
 
 //while loop
+//let i = 0; //indice
+//while(i <= carrito.length) //condicion
+//{
+//    console.log('Desde el while loop');
+//    console.log(console.log(carrito[i]));
 
+//    i++;//incremento
+//}
 
 //do while loop
+
+let i = 0;
+do
+{
+    console.log(i);
+    i++;
+}
+while(i <10);
